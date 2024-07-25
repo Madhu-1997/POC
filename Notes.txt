@@ -29,3 +29,13 @@ Git Commands:
     git remote -v
     git remote add origin <repo url name>
 
+# check present which branch and list out the all branch
+    git branch
+    git branch -a   -- to see all available branch'see
+
+# To create branch and check out remote branch to local
+    git checkout -b <new branch>   -- it will create branch and switched to thatbranch
+    git checkout <branch name>  -- to switched to another branch
+    git checkout -b <local branch name> <remote branch name>
+
+
