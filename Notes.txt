@@ -1,0 +1,31 @@
+
+Git:
+ Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. 
+
+GitHub:
+ GitHub is a web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. 
+
+Git Commands:
+
+# Install the git plugins and required thing to before colne or connecting the git
+    git init
+
+# To clone the repo from github 
+    git clone <url>
+
+# To chech modified status of the files
+    git status
+
+# To add the single file and all files
+    git add <file name> or git add .
+
+# To commit the files
+    git commit -m <comment>
+
+# To push the changes to remote repo
+    git push origin <branch name> or <url name>
+
+# To see the which repo it's added
+    git remote -v
+    git remote add origin <repo url name>
+
