@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DATE=$(date)
+colours=("black" "red" "white")
 
-echo "Today date is:: $DATE"
+echo "first color is:: ${colours$1} 
